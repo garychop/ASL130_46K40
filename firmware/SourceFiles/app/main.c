@@ -144,24 +144,17 @@
     #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)
     #endif
 #elif BUILD_FOR_MK6
-    #ifdef BUILD_1164
-    #define NEUTRAL_DEMAND_OUTPUT (1164)
-    #define DAC_SWING (344)                 // Switch is 1.0 Volts.
-    #define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)
-    #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)
-    #elif BUILD_1167
-    #define NEUTRAL_DEMAND_OUTPUT (1167)
-    #define DAC_SWING (344)                 // Switch is 1.0 Volts.
-    #define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)
-    #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)
-    #elif BUILD_1170
-    #define NEUTRAL_DEMAND_OUTPUT (1170)
-    #define DAC_SWING (344)                 // Switch is 1.0 Volts.
+// This setup was verified as appropriate for the MK6 application.
+// There is no need for different DAC settings, but the framework
+// is included.... just cuz.
+    #ifdef BUILD_1157
+    #define NEUTRAL_DEMAND_OUTPUT (1157)
+    #define DAC_SWING (605)
     #define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)
     #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)
     #else
-    #define NEUTRAL_DEMAND_OUTPUT (1170)
-    #define DAC_SWING (344)                 // Switch is 1.0 Volts.
+    #define NEUTRAL_DEMAND_OUTPUT (1157)
+    #define DAC_SWING (605)
     #define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)
     #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)
     #endif
