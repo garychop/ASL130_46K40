@@ -70,15 +70,36 @@
     #define DAC_SWING (580)
     #define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)
     #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)
+    #elif BUILD_133_1115
+    #define NEUTRAL_DEMAND_OUTPUT (1115)
+    #define DAC_SWING (344)
+    #define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)
+    #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)
+    #elif BUILD_133_1119
+    #define NEUTRAL_DEMAND_OUTPUT (1119)
+    #define DAC_SWING (344)
+    #define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)
+    #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)
+    #elif BUILD_133_1122
+    #define NEUTRAL_DEMAND_OUTPUT (1122)
+    #define DAC_SWING (344)
+    #define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)
+    #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)
     #endif
 
 #elif BUILD_FOR_LiNX_IN500
-#define NEUTRAL_DEMAND_OUTPUT (2010)    // Sets output voltage to 6 volts which
-                                        // .. is Neutral Demand for LiNX IN500
-#define DAC_SWING (410)
-#define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)           // 7.2 Volts * 0.00146 volts / bit
-#define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)           // 4.8 Volts * 0.00146 volts / bit
-
+    #ifdef BUILD_2010
+    #define NEUTRAL_DEMAND_OUTPUT (2010)    // Sets output voltage to 6.2 volts which
+                                            // .. is Neutral Demand for LiNX IN500
+    #define DAC_SWING (410)
+    #define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)           // 7.2 Volts * 0.00146 volts / bit
+    #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)           // 4.8 Volts * 0.00146 volts / bit
+    #elif BUILD_1984
+    #define NEUTRAL_DEMAND_OUTPUT (1984)
+    #define DAC_SWING (410)
+    #define MAX_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT + DAC_SWING)
+    #define MIN_DAC_OUTPUT (NEUTRAL_DEMAND_OUTPUT - DAC_SWING)
+    #endif
 #elif BUILD_FOR_RNET
 #define NEUTRAL_DEMAND_OUTPUT (1929 + 73)    // Sets output voltage to 5.75 volts which
                                         // .. is Neutral Demand for RNet System

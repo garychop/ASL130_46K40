@@ -24,7 +24,11 @@
                     <type>2</type>
                 </confElem>
                 <confElem>
-                    <name>Release_LiNX_IN500</name>
+                    <name>Release_LiNX_IN500_1984</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>Release_LiNX_IN500_2010</name>
                     <type>2</type>
                 </confElem>
                 <confElem>
@@ -53,6 +57,18 @@
                 </confElem>
                 <confElem>
                     <name>Release_130LX_1130</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>Release_133LX_1115</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>Release_133LX_1119</name>
+                    <type>2</type>
+                </confElem>
+                <confElem>
+                    <name>Release_133LX_1122</name>
                     <type>2</type>
                 </confElem>
                 <confElem>
