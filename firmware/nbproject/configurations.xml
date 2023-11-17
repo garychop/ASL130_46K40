@@ -1391,7 +1391,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_130LX_1108/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -1665,7 +1665,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_130LX_1115/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -2211,7 +2211,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_130LX_1122/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -2485,7 +2485,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_130LX_1125/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -2759,7 +2759,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_130LX_1130/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -3852,7 +3852,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_RNet/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -4400,7 +4400,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_QLogic_1984/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -4675,7 +4675,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_QLogic_1990/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -5223,7 +5223,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_QLogic_1995/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -5498,7 +5498,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_QLogic_2000/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -5773,7 +5773,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_QLogic_2010/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -6048,7 +6048,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_QLogic_2018/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -6323,7 +6323,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_QLogic_2024/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
@@ -6598,7 +6598,7 @@
         <property key="memories.programmemory.ranges" value="0-7fff"/>
         <property key="poweroptions.powerenable" value="false"/>
         <property key="programmerToGoFilePath"
-                  value="C:/asl/ASL130_46K40/firmware/debug/Release_QLogic_2030/default_ptg"/>
+                  value="C:/asl/ASL130_MEC/firmware/debug/default/default_ptg"/>
         <property key="programmerToGoImageName" value="default_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
